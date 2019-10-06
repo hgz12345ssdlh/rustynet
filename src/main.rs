@@ -18,7 +18,7 @@ use shell::RustyShell;
 fn main() {
 
     // Set logging level - Debug, Info, or Error.
-    ColoredLogger::init(LevelFilter::Debug);
+    ColoredLogger::init(LevelFilter::Info);
 
     // Only supports Linux, because docker containers require a Linux host
     // as the host machine. Mac / Win can have Docker Machine, but currently
@@ -64,5 +64,5 @@ fn main() {
         error!("Topology clean up failed.");
         panic!("Clean up error.")
     }
-    info!("Topology cleaned up.");
+    info!("Topology deployment cleaned up.");
 }

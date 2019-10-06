@@ -148,7 +148,7 @@ impl fmt::Display for Topology {
         for link in &self.links {
             write!(f, " {}", &link)?;
         }
-        write!(f, "\n  In all {} hosts, {} switches, {} links",
+        write!(f, "\n  In all, {} hosts, {} switches, {} links",
                   &self.hosts.len(), &self.switches.len(), &self.links.len())
     }
 }
@@ -188,7 +188,7 @@ impl Link {
     pub fn new(ends: (&str, &str)) -> Link {
         Link {
             ends: (ends.0.to_owned(), ends.1.to_owned()),
-            name: format!("rusty-{}-{}", ends.0, ends.1),
+            name: format!("{}-{}", ends.0, ends.1),
         }
     }
 }
