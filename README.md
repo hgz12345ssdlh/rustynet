@@ -3,6 +3,11 @@
 Author: Guanzhou Hu @ MIT
 Date: Oct 6, 2019
 
+![Number of languages](https://img.shields.io/github/languages/count/hgz12345ssdlh/rustynet)
+![Top language](https://img.shields.io/github/languages/top/hgz12345ssdlh/rustynet?color=yellow)
+![Code size](https://img.shields.io/github/languages/code-size/hgz12345ssdlh/rustynet)
+![Build status](https://img.shields.io/travis/com/hgz12345ssdlh/rustynet)
+
 
 ## Overview
 
