@@ -1,0 +1,12 @@
+[package]
+name = "rustynet"
+version = "0.1.0"
+authors = ["Guanzhou (Jose) Hu <josehu@mit.edu>"]
+edition = "2018"
+
+[dependencies]
+colored = "1.8"
+log = "0.4.8"
+yaml-rust = "0.4.3"
+tuple = "0.4.2"
+nix = "0.15.0"

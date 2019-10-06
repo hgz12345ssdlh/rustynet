@@ -1,0 +1,9 @@
+# Minimal topology.
+#
+#   h1 - h2
+#
+
+hosts: h1 h2
+switches:
+links:
+    - h1 h2
